@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+
+nav{
+    background-color: rgb(37, 144, 165);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    z-index: 2; 
+    max-width: 100%;
+
+}
+
+nav h2{
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+}
+
+.pageLink {
+    width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+}
+
+.pageLink a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.pageLink a:hover {
+    color: rgb(245, 245, 83);
+}
+
+.cover{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top:-80px ; 
+}
+
+.cover img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.book {
+    text-align: center;
+    box-shadow: 0px 4px 10px black;
+    color: black;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+     margin-left: 560px;
+    
+     position: relative;
+    top: 350px;
+    z-index: 1; 
+   
+}
+
+.book:hover {
+    box-shadow: 0px 15px 80px black;
+}
+
+.book button {
+    background-color: rgb(37, 144, 165);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.top3{
+    width: 1450px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));; */
+    gap: 40px;
+    justify-content: space-around;
+    margin: 75px;
+    padding: 20px;
+}
+
+
+
+main{
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solide white;
+    margin-top: 90px;
+}
+
+.sec1 h2{
+    color: black;
+    background-color: rgb(37, 144, 165);
+    padding: 20px;
+}
+
+.top{
+    height: 450px;
+    width: 350px;
+    box-shadow: 4px 6px 10px black;
+    border-radius: 20px;
+    
+}
+
+.top:hover{
+    transform: scale(1.02) translateY(-10px);
+    box-shadow: 0px 15px 80px black;;
+}
+
+.image img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+
+.text{
+    background-color: white;
+    position: relative;
+    bottom: 0px;
+    padding: 10px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+
+.text button {
+    background-color:rgb(37, 144, 165);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.sec2 h3{
+    color: black;
+    background-color: rgb(37, 144, 165);
+    padding: 20px;
+}
+
+.review {
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.rev1{
+    background-color:rgb(37, 144, 165);
+    border: 2px solid black;
+    width: 350px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+footer {
+    background-color:rgb(4, 53, 63) ;
+    color: white;
+}
+
+.foot{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#destination6{
+    background-color: white;
+
+}
+
+#top6{
+    padding-top: 20px;
+}
+
+table{
+    border: 2px solid black;
+    padding: 20px;
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: 400px;
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(37, 144, 165);;
+}
+tr:hover{
+    background-color: rgb(181, 214, 221);;
+}
+
+button:hover{
+    background-color: rgb(69, 201, 246);
+}
+
+.form{
+    backdrop-filter: blur(10px);
+    width: 800px;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 300px;
+    padding: 20px;
+    padding-left: 150px;
+    border-radius: 20px;
+    background-color: rgb(225, 240, 243);
+}
+
+.form h2{
+    margin-left: 200px;
+}
+.form input{
+    width: 80%;
+    height: 30px;
+}
+.form select{
+    width: 100%;
+}
+#newsletter{
+    width: 20px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+}
+
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+}
+#submit{
+    margin-left: 220px;
+}
+
+#destination{
+    width: 80%;
+    padding: 10px;
+}

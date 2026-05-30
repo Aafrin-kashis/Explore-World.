@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>contact</title>
+</head>
+<body>
+    
+     <header>
+    <nav>
+        <div class="logo">
+        <img src="/Assets/logo.png" alt="logo" height="80px">
+        <h2>EXPLORE WORLD</h2>
+        </div>
+
+        <div class="pageLink">
+            <a href="index1.html">Home</a>
+            <a href="Destinations.html">Destinations</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
+    </header>
+
+    <div class="form">
+        <form action="#" method="post">
+
+            <h2>Contact Us</h2>
+    <label for="fullname">Full Name</label>
+    <br>
+    <input 
+        type="text" 
+        id="fullname" 
+        name="fullname" 
+        placeholder="Enter your full name" 
+        required>
+        
+
+    <br><br>
+
+    <label for="email">Email</label>
+    <br>
+    <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        placeholder="Enter your email" 
+        required>
+
+    <br><br>
+
+    <label for="phone">Phone Number:</label>
+    <br>
+    <input 
+        type="tel" 
+        id="phone" 
+        name="phone" 
+        placeholder="Enter your phone number" 
+        required>
+
+    <br><br>
+
+    <label for="destination">Travel Destination</label>
+    <br>
+    <select id="destination" name="destination" required>
+        <option value="">Select Destination</option>
+        <option value="paris">Paris</option>
+        <option value="bali">Bali</option>
+        <option value="switzerland">Switzerland</option>
+        <option value="dubai">Dubai</option>
+        <option value="tokyo">Tokyo</option>
+        <option value="maldives">Maldives</option>
+    </select>
+
+    <br><br>
+
+    <fieldset>
+        <legend>Preferred Month</legend>
+
+        <input type="radio" id="june" name="month" value="June">
+        <label for="june">June</label>
+
+        <input type="radio" id="july" name="month" value="July">
+        <label for="july">July</label>
+
+        <input type="radio" id="august" name="month" value="August">
+        <label for="august">August</label>
+
+        <input type="radio" id="september" name="month" value="september">
+        <label for="june">September</label>
+
+        <input type="radio" id="october" name="month" value="october">
+        <label for="july">October</label>
+
+        <input type="radio" id="November" name="month" value="november">
+        <label for="august">November</label>
+    </fieldset>
+
+    <br>
+
+    <label for="comments">Comments</label>
+    <br>
+    <textarea 
+        id="comments" 
+        name="comments" 
+        rows="5" 
+        placeholder="Write your travel requirements here" cols="70"></textarea>
+
+    <br><br>
+
+    <input type="checkbox" id="newsletter" name="newsletter"width="0%">
+    <br>
+    <label for="newsletter">Subscribe to our travel newsletter</label>
+
+    <br><br>
+
+    <button type="submit"id="submit">Submit</button>
+
+</form>
+    </div>
+
+     <footer>
+        <div class="foot">
+            <small>© 2026 Explore World.All rights reserved</small>
+            <div class="follow">
+            <small>follow us</small>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-telegram"></i>
+            </div>
+            <small>Contact info</small>
+        </div>
+    </footer>
+    
+</body>
+</html>
