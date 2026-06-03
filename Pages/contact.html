@@ -23,102 +23,68 @@
     </nav>
     </header>
 
-    <div class="form">
-        <form action="#" method="post">
+    <div class="contact-form">
+    <h2>Contact Us</h2>
 
-            <h2>Contact Us</h2>
-    <label for="fullname">Full Name</label>
-    <br>
-    <input 
-        type="text" 
-        id="fullname" 
-        name="fullname" 
-        placeholder="Enter your full name" 
-        required>
-        
+    <form>
 
-    <br><br>
+        <div class="form-group">
+            <label for="name">User Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
 
-    <label for="email">Email</label>
-    <br>
-    <input 
-        type="email" 
-        id="email" 
-        name="email" 
-        placeholder="Enter your email" 
-        required>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+        </div>
 
-    <br><br>
+        <div class="form-group">
+            <label for="mobile">Mobile No</label>
+            <input type="tel" id="mobile" placeholder="Enter your mobile number">
+        </div>
 
-    <label for="phone">Phone Number:</label>
-    <br>
-    <input 
-        type="tel" 
-        id="phone" 
-        name="phone" 
-        placeholder="Enter your phone number" 
-        required>
+        <div class="form-group">
+            <label for="destination">Travel Destination</label>
+            <select id="destination">
+                <option>Select Destination</option>
+                <option>Paris</option>
+                <option>Bali</option>
+                <option>Switzerland</option>
+                <option>Tokyo</option>
+                <option>Dubai</option>
+                <option>Maldives</option>
+            </select>
+        </div>
 
-    <br><br>
+        <div class="form-group">
+            <label for="month">Preferred Month</label>
+            <select id="month">
+                <option>Select Month</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+            </select>
+        </div>
 
-    <label for="destination">Travel Destination</label>
-    <br>
-    <select id="destination" name="destination" required>
-        <option value="">Select Destination</option>
-        <option value="paris">Paris</option>
-        <option value="bali">Bali</option>
-        <option value="switzerland">Switzerland</option>
-        <option value="dubai">Dubai</option>
-        <option value="tokyo">Tokyo</option>
-        <option value="maldives">Maldives</option>
-    </select>
+        <div class="form-group">
+            <label for="comment">Comment</label>
+            <textarea id="comment" placeholder="Write your comments here"></textarea>
+        </div>
 
-    <br><br>
+        <div class="checkbox-group">
+            <input type="checkbox" id="newsletter">
+            <label for="newsletter">
+                Subscribe to our travel newsletter
+            </label>
+        </div>
 
-    <fieldset>
-        <legend>Preferred Month</legend>
+        <button type="submit">Submit</button>
 
-        <input type="radio" id="june" name="month" value="June">
-        <label for="june">June</label>
-
-        <input type="radio" id="july" name="month" value="July">
-        <label for="july">July</label>
-
-        <input type="radio" id="august" name="month" value="August">
-        <label for="august">August</label>
-
-        <input type="radio" id="september" name="month" value="september">
-        <label for="june">September</label>
-
-        <input type="radio" id="october" name="month" value="october">
-        <label for="july">October</label>
-
-        <input type="radio" id="November" name="month" value="november">
-        <label for="august">November</label>
-    </fieldset>
-
-    <br>
-
-    <label for="comments">Comments</label>
-    <br>
-    <textarea 
-        id="comments" 
-        name="comments" 
-        rows="5" 
-        placeholder="Write your travel requirements here" cols="70"></textarea>
-
-    <br><br>
-
-    <input type="checkbox" id="newsletter" name="newsletter"width="0%">
-    <br>
-    <label for="newsletter">Subscribe to our travel newsletter</label>
-
-    <br><br>
-
-    <button type="submit"id="submit">Submit</button>
-
-</form>
-    </div>
+    </form>
+</div>
 
      <footer>
         <div class="foot">
